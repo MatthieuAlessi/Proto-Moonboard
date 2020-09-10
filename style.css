@@ -1,0 +1,44 @@
+
+.container {
+  min-width: 360px;
+  max-width:1200px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: auto;
+  grid-row-gap: 20px;
+  justify-items: center;
+}
+
+.btn {
+  background: grey;
+  color: darkslategrey;
+  padding: 10px 0px;
+  width: 150px;
+  border-radius: 5px;
+  border: solid 1px darkkhaki;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: darkkhaki;
+  border: solid 1px Olive;
+}
+
+.filter {
+  filter: grayscale(100%);
+}
+
+body.dragging,
+body.dragging * {
+	cursor: grabbing !important;
+}
+.dragged {
+	position: absolute !important;
+	opacity: 0.6;
+	z-index: 2000;
+}
+.handle {
+	cursor: grab;
+}
