@@ -1,3 +1,53 @@
+/* navbar */
+.navbar {
+	padding: 1.5rem 1rem ;
+}
+
+.navbar-bg {
+	background-color: #000000;
+	padding: 1.5rem 1rem;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: $navbar-brand-padding-y;
+  padding-bottom: $navbar-brand-padding-y;
+  margin-right: $navbar-padding-x;
+  font-size: $navbar-brand-font-size;
+  line-height: inherit;
+  white-space: nowrap;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 25px;
+  padding: 10px;
+
+  @include hover-focus {
+    text-decoration: none;
+  }
+}
+
+.nav-link {
+	font-family: 'Raleway';
+	font-weight: 400;
+}
+
+/* end navbar */
+
+/* Search bar */
+
+
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.form-control-underlined {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+/* end navbar */
 
 .container {
   min-width: 360px;
