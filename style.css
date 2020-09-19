@@ -51,6 +51,15 @@ i {
  }
 
 
+.bg-search {
+	margin-right: 0;
+}
+  @media (min-width: 600px) {
+  	.bg-search {
+  	margin-right: 2rem!important;
+  }
+ }
+
 
 /* navbar */
 .navbar {
